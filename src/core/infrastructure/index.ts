@@ -4,6 +4,8 @@ import * as FormData from 'form-data';
 export { BaseService } from './BaseService';
 export { bundler } from './Utils';
 export { KyRequester } from './KyRequester';
+export { GraphQLRequester } from './GraphQLRequester';
+
 export { RequestHelper };
 
 // Bundler
@@ -25,11 +27,12 @@ export interface Sudo {
 }
 
 export interface Requester {
-  get: Function;
-  post: Function;
-  put: Function;
-  delete: Function;
+  get?: Function;
+  post?: Function;
+  put?: Function;
+  delete?: Function;
   stream?: Function;
+  gqlQuery?: Function;
 }
 
 export interface BaseServiceOptions extends Sudo {
