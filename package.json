@@ -8,7 +8,7 @@
     "@auto-it/core": "^10.18.9",
     "@auto-it/first-time-contributor": "^10.18.9",
     "@auto-it/released": "^10.18.9",
-    "@types/jest": "^26.0.20",
+    "@types/jest": "^26.0.22",
     "@typescript-eslint/eslint-plugin": "^4.17.0",
     "@typescript-eslint/parser": "^4.17.0",
     "all-contributors-cli": "^6.20.0",
@@ -28,7 +28,7 @@
     "lint-staged": "^10.5.4",
     "prettier": "^2.2.1",
     "ts-jest": "^26.5.3",
-    "typescript": "^4.2.3"
+    "typescript": "^4.2.4"
   },
   "private": true,
   "workspaces": [
